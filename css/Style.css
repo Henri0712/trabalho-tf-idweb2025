@@ -1,75 +1,111 @@
-/* IDs */
-#icon{
-    margin-left: 1.5%;
-    width: 5%;
-    height: 5%;
+#icon {
+  margin-left: 1.5%;
+  width: 5%;
+  height: auto;
 }
 
-#dado{
-    position: fixed; 
-    bottom: 0; 
-    right: 0;
+#dado {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
-#fundo{
-    background-color: rgb(170, 34, 34);
+#fundo {
+  background-color: rgb(170, 34, 34);
 }
 
-
-
-/* -----------END--------------*/
-
-
-
-/* Classes */
-.color_nav{
- background-color: rgb(139, 9, 9);
-}
-.color_fot{
- margin-top: 5%;
- padding: 10px;
- background-color: rgb(139, 9, 9);
- color: black;
+.color_nav {
+  background-color: rgb(139, 9, 9);
 }
 
-.mesa{
+.color_fot {
+  padding: 10px;
+  background-color: rgb(139, 9, 9);
+  color: black;
+}
+
+.mesa {
   border-radius: 10%;
   max-width: 100%;
   height: 350px;
 }
 
-.text{
-    color: black;
-    font-size: x-large;
-    text-align: justify;
+.text {
+  color: black;
+  font-size: 1.25rem;
+  text-align: justify;
 }
 
-.char{
+.char {
   border-radius: 30%;
   max-width: 100%;
   height: 600px;
 }
 
-.afast{
+.afast {
   text-align: center;
 }
 
-.atrib{
-    font-size: 18 px;
-    border-radius: 8 px;
-    color: black;
-    background-color: red;
+.atrib {
+  font-size: 18px;
+  border-radius: 8px;
+  color: black;
+  background-color: red;
 }
 
-.form-floating{
-        background-color: red;
-        padding: 15px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-      }
+.form-floating {
+  background-color: red;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
 
 .form-control:disabled {
   background-color: rgb(62, 64, 77) !important;
   color: white !important;
   border: 1px solid #888 !important;
-        }
+}
+
+@media (max-width: 768px) {
+  #icon {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .char {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+  }
+
+  .text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .form-floating {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .atrib {
+    font-size: 1rem;
+    border-radius: 6px;
+  }
+
+  .navbar .text {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #dado {
+    width: 60px;
+    height: auto;
+  }
+}
