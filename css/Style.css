@@ -1,0 +1,47 @@
+/* IDs */
+#icon{
+    margin-left: 1.5%;
+    width: 5%;
+    height: 5%;
+}
+
+#dado{
+    position: fixed; 
+    bottom: 0; 
+    right: 0;
+}
+
+#fundo{
+    background-color: rgb(170, 34, 34);
+}
+
+
+
+/* -----------END--------------*/
+
+
+
+/* Classes */
+.color_nav{
+ background-color: rgb(139, 9, 9);
+}
+.color_fot{
+ margin-top: 5%;
+ padding: 10px;
+ background-color: rgb(139, 9, 9);
+ color: black;
+}
+
+.mesa{
+  border-radius: 10%;
+  max-width: 100%;
+  height: 350px;
+}
+
+.text{
+    color: black;
+    font-size: x-large;
+    text-align: justify;
+}
+
+
